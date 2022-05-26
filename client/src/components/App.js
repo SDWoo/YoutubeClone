@@ -26,7 +26,7 @@ function App() {
           <Route
             exact
             path="/video/:videoId"
-            component={Auth(VideoDetailPage, false)}
+            component={Auth(VideoDetailPage, true)}
           />
           <Route
             exact
